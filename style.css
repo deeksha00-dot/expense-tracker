@@ -556,3 +556,19 @@ margin-bottom: 0.5rem;
 }
 
 
+@media (max-width:1200px) {
+    .dashboard-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .chart-section{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:768) {
+    .dashboard-grid{
+        grid-template-columns: 1fr;
+    }
+    .main-content{
+        padding:1rem ;
+    }
+}
